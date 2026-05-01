@@ -1,3 +1,4 @@
+import resumePdf from "../docs/resume.pdf";
 export default function Hero() {
   return (
     <section
@@ -45,7 +46,7 @@ export default function Hero() {
               Email
             </a>
             <a
-              href="docs/resume.pdf"
+              href={resumePdf}
               download
               className="px-6 py-2 border border-white text-white hover:bg-white hover:text-black transition text-sm"
             >
