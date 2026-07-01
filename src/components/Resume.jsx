@@ -6,26 +6,25 @@ export default function Resume() {
       degree: "B.Tech in Computer Science",
       school: "Dr. A.P.J. Abdul Kalam Technical University (ABESIT)",
       location: "Ghaziabad",
-      status: "Undergraduate",
-    },
-    {
-      degree: "Senior Secondary (Class XII)",
-      school: "Bhartiya Vidya Bhawan",
-      year: "2023",
-    },
-    {
-      degree: "Secondary (Class X)",
-      school: "Bhartiya Vidya Bhavan",
-      year: "2021",
+      year: "Expected 2027",
     },
   ];
 
   const skills = {
-    languages: ["Python", "JavaScript", "C"],
-    frontend: ["React.js", "HTML", "CSS"],
-    backend: ["Node.js", "Flask", "REST APIs"],
-    databases: ["MongoDB"],
-    tools: ["Git", "Linux", "Docker (basic)", "API Integration"],
+    languages: ["Python", "JavaScript", "Kotlin"],
+    frontend: ["React.js", "HTML5", "CSS3", "Jetpack Compose"],
+    backend: ["Node.js", "Express.js", "Flask", "REST APIs"],
+    databases: ["MongoDB", "SQLite"],
+    ai: [
+      "LLMs",
+      "Prompt Engineering",
+      "RAG",
+      "Ollama",
+      "Gemini API",
+      "AI Agents",
+      "Vector Databases",
+    ],
+    tools: ["Git", "Linux", "Docker", "Postman", "GitHub Actions"],
   };
 
   const certifications = [
@@ -65,9 +64,8 @@ export default function Resume() {
                   <div key={idx} className="border-l-2 border-white pl-4">
                     <h4 className="font-semibold text-white">{item.degree}</h4>
                     <p className="text-sm text-gray-400">{item.school}</p>
-                    <p className="text-xs text-gray-500">
-                      {item.location || item.year || item.status}
-                    </p>
+                    <p className="text-xs text-gray-500">{item.location}</p>
+                    <p className="text-xs text-gray-500">{item.year}</p>
                   </div>
                 ))}
               </div>
@@ -143,6 +141,21 @@ export default function Resume() {
                 </h4>
                 <div className="flex flex-wrap gap-2">
                   {skills.databases.map((skill, idx) => (
+                    <span
+                      key={idx}
+                      className="px-2 py-1 bg-gray-800 border border-gray-700 text-xs text-gray-300 rounded"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h4 className="font-semibold text-sm text-white mb-2">
+                  AI / LLM
+                </h4>
+                <div className="flex flex-wrap gap-2">
+                  {skills.ai.map((skill, idx) => (
                     <span
                       key={idx}
                       className="px-2 py-1 bg-gray-800 border border-gray-700 text-xs text-gray-300 rounded"

@@ -1,23 +1,34 @@
 export default function Projects() {
   const projects = [
     {
+      title: "ClearStack - AI Notification Manager",
+      description: [
+        "Developed an Android application that groups notifications into conversation threads using NotificationListenerService",
+        "Built a privacy-first local LLM summarization pipeline with Ollama for on-device notification summaries",
+        "Implemented conversation memory and context management to optimize token usage while preserving relevant history",
+        "Created a reactive Jetpack Compose UI with real-time updates using StateFlow and a scalable local inference architecture",
+      ],
+      technologies: ["Android", "Kotlin", "Jetpack Compose", "Ollama", "LLMs"],
+    },
+    {
       title: "AI-Powered Expense Tracker",
       description: [
-        "Full-stack expense tracker managing 300+ transactions with secure authentication and email OTP verification",
-        "Integrated Gemini API for AI-driven insights to identify high-spending categories and suggest cost-saving strategies",
-        "Built REST APIs with <100ms response time for efficient CRUD operations",
-        "Implemented data visualization (bar charts) for expense analysis with ~30% improvement in financial tracking",
+        "Developed a full-stack expense tracker with secure authentication and email OTP verification, supporting 300+ transactions",
+        "Integrated Gemini API to generate AI-powered spending insights and personalized cost-saving recommendations",
+        "Built REST APIs with <100 ms response time for efficient CRUD operations and data management",
+        "Implemented interactive dashboards for expense visualization and financial analysis",
       ],
       technologies: ["React", "Node.js", "MongoDB", "Gemini API"],
       link: "https://expense.hwkds.dev",
       github: "https://github.com/HWKDS/expense-Tracker",
     },
     {
-      title: "Simple DNS Server",
+      title: "DNS Server",
       description: [
-        "Custom DNS server using UDP sockets to handle domain resolution requests",
-        "Implemented request-response flow for mapping domain names to IP addresses",
-        "Simulated real-world DNS behavior including query parsing and response generation",
+        "Built a custom DNS server using UDP sockets to process domain name resolution requests",
+        "Implemented DNS query parsing, request-response handling, and domain-to-IP mapping",
+        "Simulated real-world DNS behavior, including packet parsing and response generation",
+        "Designed a modular networking architecture for reliable request processing and future extensibility",
       ],
       technologies: ["Node.js", "Networking", "UDP Sockets"],
       github: "https://github.com/HWKDS/Simple-DNS-Server",

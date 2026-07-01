@@ -1,17 +1,16 @@
 # Keshav Dev Sharma - Portfolio Website
 
-A modern, minimal portfolio website built with React, Vite, and Tailwind CSS.
+A modern portfolio website built with React, Vite, and Tailwind CSS.
 
 ## Features
 
-- ✨ Clean, minimal design aesthetic
-- 📸 Photo section in hero area
-- 📄 Detailed resume section with experience, education & skills
-- 📱 Fully responsive layout
+- 👨‍💻 Updated profile focused on Full-Stack Development and Applied AI
+- 📄 Embedded resume preview and one-click PDF download
+- 🧠 Detailed skill matrix across frontend, backend, AI/LLM, and tools
+- 🚀 Project highlights including Android + local LLM and full-stack work
+- 🌐 Open-source contribution highlights
+- 📱 Fully responsive layout with smooth scrolling navigation
 - ⚡ Fast performance with Vite
-- 🎯 Smooth scrolling navigation
-- 🔗 Links to GitHub and LinkedIn profiles
-- 📦 Easily customizable sections
 
 ## Tech Stack
 
@@ -59,9 +58,8 @@ src/
 │   ├── Navigation.jsx    - Navigation header
 │   ├── Hero.jsx          - Landing section with photo
 │   ├── Resume.jsx        - Resume section
-│   ├── Projects.jsx      - Projects showcase
-│   └── Contact.jsx       - Contact/links section
-│   └── Contact.jsx       - Contact section
+│   ├── Projects.jsx      - Projects and open-source highlights
+│   └── Contact.jsx       - Contact and social links
 ├── App.jsx               - Main component
 ├── main.jsx              - Entry point
 └── index.css             - Global styles
@@ -73,8 +71,8 @@ src/
 
 1. **Hero Section** - Edit `src/components/Hero.jsx` to update your intro and links
 2. **Projects** - Add your projects in `src/components/Projects.jsx`
-3. **Skills** - Update your skills in `src/components/Skills.jsx`
-4. **Contact** - Update links in `src/components/Contact.jsx`
+3. **Resume** - Update education, certifications, and skills in `src/components/Resume.jsx`
+4. **Contact** - Update links and footer details in `src/components/Contact.jsx`
 
 ### Styling
 

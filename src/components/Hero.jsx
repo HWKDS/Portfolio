@@ -15,12 +15,13 @@ export default function Hero() {
             <span className="block">📱 +91 7982867584</span>
           </p>
           <p className="text-xl text-gray-300 mb-6 font-light">
-            Full Stack Developer & AI Enthusiast
+            Full-Stack Developer & Applied AI Builder
           </p>
           <p className="text-base text-gray-400 mb-8 leading-relaxed max-w-md">
-            Computer Science undergraduate with hands-on experience in Python,
-            React, and backend development. Experienced in building
-            network-focused and AI-based applications.
+            Computer Science undergraduate specializing in full-stack
+            development and applied AI. I build production-ready web and Android
+            applications with React, Node.js, Python, Kotlin, and REST APIs,
+            with a strong focus on LLM-powered workflows.
           </p>
           <div className="flex gap-4 flex-wrap">
             <a
